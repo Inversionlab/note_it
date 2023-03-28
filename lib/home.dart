@@ -18,8 +18,8 @@ class home extends StatelessWidget {
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: [
-              Color(0xff2e62b7),
-              Color(0xff13c4e3),
+              Color(0xff9815da),
+              Color(0xffb37bda),
             ],
           ),
         ),
@@ -67,8 +67,8 @@ class home extends StatelessWidget {
                       end: Alignment.topRight,
 
                       colors:[
-                        Colors.blue,
-                        Colors.cyan,
+                        Color(0xff8710e8),
+                        Color(0xffb37bda),
                       ],
                     ),
                   ),
@@ -107,8 +107,8 @@ class home extends StatelessWidget {
                         begin: Alignment.topLeft,
                         end: Alignment.topRight,
                         colors:[
-                          Colors.blue,
-                          Colors.cyan,
+                          Color(0xff8710e8),
+                          Color(0xffb37bda),
                         ],
                       ),
                   ),
@@ -144,8 +144,8 @@ class home extends StatelessWidget {
                         begin: Alignment.topLeft,
                         end: Alignment.topRight,
                         colors:[
-                          Colors.blue,
-                          Colors.cyan,
+                          Color(0xff8710e8),
+                          Color(0xffb37bda),
                         ],
                       ),
                   ),
@@ -175,7 +175,7 @@ class home extends StatelessWidget {
                   decoration: BoxDecoration(
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.black38,
+                          color: Colors.black26,
                           blurRadius:10,
                           spreadRadius: 10,
                         ),
@@ -185,8 +185,8 @@ class home extends StatelessWidget {
                         begin: Alignment.topLeft,
                         end: Alignment.topRight,
                         colors:[
-                          Colors.blue,
-                          Colors.cyan,
+                          Color(0xff8710e8),
+                          Color(0xffb37bda),
                         ],
                       ),
                   ),
@@ -196,7 +196,7 @@ class home extends StatelessWidget {
                 height: 50,
               ),
               Icon(CupertinoIcons.heart_fill,color: Colors.red,),
-              Text("DEVELOPED BY INVERSIONLAB"),
+              Text("DEVELOPED BY INVERSIONLAB",),
             ],
           ),
       ),

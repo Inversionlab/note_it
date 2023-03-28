@@ -46,7 +46,7 @@ class fifthsem extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Icon(CupertinoIcons.book,color: Colors.white,size: 30,),
-                      Text("  OPERATING SYSTEM WORKSHOP",style: TextStyle(color:Colors.white,fontSize: 20),),
+                      Text("OPERATING SYSTEM WORKSHOP",style: TextStyle(color:Colors.white,fontSize: 20),),
                     ],
                   ),
                   height: 50,
